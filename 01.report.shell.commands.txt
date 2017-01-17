@@ -1,0 +1,115 @@
+Last login: Mon Jan 16 20:00:01 on ttys000
+MacBook-Air-cua-Macbook:~ Jim$ echo hello world
+hello world
+MacBook-Air-cua-Macbook:~ Jim$ passwd
+Changing password for Jim.
+Old Password:
+New Password:
+Retype New Password:
+passwd: authentication token failure
+MacBook-Air-cua-Macbook:~ Jim$ passwd
+Changing password for Jim.
+Old Password:
+New Password:
+Retype New Password:
+MacBook-Air-cua-Macbook:~ Jim$ date
+Tue Jan 17 09:24:19 ICT 2017
+MacBook-Air-cua-Macbook:~ Jim$ hostname
+MacBook-Air-cua-Macbook.local
+MacBook-Air-cua-Macbook:~ Jim$ arch
+i386
+MacBook-Air-cua-Macbook:~ Jim$ uname -a
+Darwin MacBook-Air-cua-Macbook.local 16.0.0 Darwin Kernel Version 16.0.0: Mon Aug 29 17:56:20 PDT 2016; root:xnu-3789.1.32~3/RELEASE_X86_64 x86_64
+MacBook-Air-cua-Macbook:~ Jim$ dmesg
+Unable to obtain kernel buffer: Operation not permitted
+usage: sudo dmesg
+MacBook-Air-cua-Macbook:~ Jim$ uptime
+ 9:24  up 26 days, 17:13, 2 users, load averages: 1.06 1.45 1.85
+MacBook-Air-cua-Macbook:~ Jim$ who am i
+Jim      ttys000  Jan 17 09:22 
+MacBook-Air-cua-Macbook:~ Jim$ whoami
+Jim
+MacBook-Air-cua-Macbook:~ Jim$ who
+Jim      console  Dec 21 16:13 
+Jim      ttys000  Jan 17 09:22 
+MacBook-Air-cua-Macbook:~ Jim$ id
+uid=502(Jim) gid=20(staff) groups=20(staff),702(com.apple.sharepoint.group.2),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),701(com.apple.sharepoint.group.1),33(_appstore),100(_lpoperator),204(_developer),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh)
+MacBook-Air-cua-Macbook:~ Jim$ last
+Jim       ttys000                   Tue Jan 17 09:22   still logged in
+Jim       ttys000                   Mon Jan 16 20:00   still logged in
+Jim       ttys000                   Fri Jan 13 09:10   still logged in
+Jim       ttys000                   Tue Jan 10 11:53   still logged in
+Jim       ttys000                   Tue Jan 10 11:47   still logged in
+Jim       ttys000                   Tue Jan 10 11:44   still logged in
+Jim       ttys000                   Tue Jan 10 11:43   still logged in
+Jim       ttys000                   Tue Jan 10 11:05   still logged in
+Jim       ttys000                   Tue Jan 10 11:04   still logged in
+Jim       console                   Wed Dec 21 16:13   still logged in
+reboot    ~                         Wed Dec 21 16:12 
+Jim       ttys000                   Wed Dec 21 08:53 - crash  (07:18)
+Jim       ttys000                   Mon Dec 19 13:53 - crash (2+02:19)
+Jim       console                   Mon Dec 12 10:34 - crash (9+05:38)
+reboot    ~                         Mon Dec 12 10:34 
+Jim       console                   Mon Dec  5 09:05 - crash (7+01:28)
+reboot    ~                         Mon Dec  5 03:30 
+Jim       ttys001                   Fri Dec  2 15:13 - crash (2+12:17)
+Jim       ttys001                   Fri Dec  2 14:44 - crash (2+12:45)
+Jim       ttys001                   Fri Dec  2 14:27 - crash (2+13:02)
+Jim       console                   Sun Nov 20 19:02 - crash (14+08:28)
+reboot    ~                         Sun Nov 20 14:14 
+Jim       console                   Mon Nov 14 00:21 - crash (6+13:52)
+reboot    ~                         Mon Nov 14 00:21 
+Jim       ttys002                   Fri Nov 11 21:37 - crash (2+02:44)
+Jim       ttys002                   Fri Nov 11 20:42 - crash (2+03:39)
+Jim       ttys000                   Tue Nov  1 09:33 - crash (12+14:48)
+Jim       console                   Sun Oct 30 22:40 - crash (14+01:41)
+reboot    ~                         Sun Oct 30 22:39 
+Jim       ttys002                   Fri Oct 28 11:36 - crash (2+11:03)
+Jim       ttys002                   Fri Oct 28 11:33 - crash (2+11:06)
+Jim       ttys002                   Fri Oct 28 11:29 - crash (2+11:09)
+Jim       ttys002                   Fri Oct 28 11:18 - crash (2+11:21)
+Jim       ttys002                   Fri Oct 28 10:53 - crash (2+11:46)
+Jim       ttys002                   Fri Oct 28 10:51 - crash (2+11:48)
+Jim       ttys002                   Fri Oct 28 10:50 - crash (2+11:48)
+Jim       ttys002                   Fri Oct 28 10:41 - crash (2+11:58)
+Jim       ttys001                   Tue Oct 25 10:37 - crash (5+12:01)
+Jim       ttys001                   Tue Oct 25 10:37 - crash (5+12:02)
+Jim       ttys001                   Tue Oct 25 10:33 - crash (5+12:06)
+Jim       ttys001                   Tue Oct 25 10:19 - crash (5+12:20)
+Jim       ttys000                   Fri Oct 21 09:16 - crash (9+13:22)
+Jim       ttys000                   Wed Oct 19 16:07 - crash (11+06:32)
+Jim       ttys000                   Tue Oct 18 10:03 - crash (12+12:36)
+Jim       ttys000                   Tue Oct 18 09:53 - crash (12+12:46)
+Jim       ttys000                   Tue Oct 18 09:52 - crash (12+12:46)
+Jim       ttys000                   Tue Oct 18 09:49 - crash (12+12:49)
+Jim       ttys000                   Tue Oct 18 09:33 - crash (12+13:05)
+Jim       ttys000                   Fri Oct 14 11:39 - crash (16+11:00)
+Jim       ttys000                   Fri Oct 14 11:00 - crash (16+11:39)
+Jim       ttys000                   Fri Oct 14 10:14 - crash (16+12:25)
+Jim       ttys000                   Fri Oct 14 10:08 - crash (16+12:31)
+Jim       ttys000                   Fri Oct 14 10:07 - crash (16+12:32)
+Jim       ttys000                   Fri Oct 14 10:06 - crash (16+12:33)
+Jim       ttys000                   Fri Oct 14 09:50 - crash (16+12:49)
+Jim       ttys000                   Thu Oct 13 11:38 - crash (17+11:01)
+Jim       ttys001                   Wed Oct  5 14:38 - crash (25+08:00)
+Jim       ttys000                   Wed Oct  5 14:38 - crash (25+08:00)
+Jim       console                   Wed Oct  5 14:30 - crash (25+08:09)
+reboot    ~                         Wed Oct  5 14:29 
+Jim       ttys002                   Tue Oct  4 09:19 - crash (1+05:10)
+Jim       ttys001                   Fri Sep 30 11:38 - crash (5+02:51)
+Jim       ttys001                   Fri Sep 30 09:22 - crash (5+05:07)
+_mbsetupuser  console                   Wed Sep 21 19:01 - crash (13+19:28)
+Jim       console                   Wed Sep 21 19:00 - crash (13+19:29)
+reboot    ~                         Wed Sep 21 18:59 
+
+wtmp begins Wed Sep 21 18:59 
+MacBook-Air-cua-Macbook:~ Jim$ finger
+Login    Name                 TTY  Idle  Login  Time   Office  Phone
+Jim      Jim Trần          *con   26d  Dec 21 16:13
+Jim      Jim Trần           s00        Tue    09:22
+MacBook-Air-cua-Macbook:~ Jim$ w
+ 9:25  up 26 days, 17:13, 2 users, load averages: 1.12 1.43 1.83
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+Jim      console  -                21Dec16 26days -
+Jim      s000     -                 9:22       - w
+MacBook-Air-cua-Macbook:~ Jim$ 

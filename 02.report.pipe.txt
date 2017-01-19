@@ -1,0 +1,30 @@
+MacBook-Air-cua-Macbook:list Jim$ cd /Users/Jim/Desktop
+MacBook-Air-cua-Macbook:Desktop Jim$ ls | grep "list"
+list
+list 234
+MacBook-Air-cua-Macbook:Desktop Jim$ wc -l /etc/passwd
+      91 /etc/passwd
+MacBook-Air-cua-Macbook:Desktop Jim$ sysctl -a | grep mem 
+kern.dtrace.buffer_memory_maxsize: 1431655765
+kern.dtrace.buffer_memory_inuse: 0
+kern.memorystatus_purge_on_critical: 8
+kern.memorystatus_purge_on_urgent: 5
+kern.memorystatus_purge_on_warning: 2
+kern.memorystatus_apps_idle_delay_time: 10
+kern.memorystatus_sysprocs_idle_delay_time: 10
+vm.memory_pressure: 0
+hw.memsize: 4294967296
+machdep.memmap.Other: 0
+machdep.memmap.Unusable: 0
+machdep.memmap.Reserved: 84238336
+machdep.memmap.PalCode: 0
+machdep.memmap.ACPINVS: 294912
+machdep.memmap.ACPIReclaim: 188416
+machdep.memmap.RuntimeServices: 557056
+machdep.memmap.Conventional: 4192649216
+audit.session.member_set_sflags_mask: 0
+audit.session.member_clear_sflags_mask: 16384
+MacBook-Air-cua-Macbook:Desktop Jim$ sysctl -n hw.ncpu
+4
+MacBook-Air-cua-Macbook:~ Jim$ find /Users/Jim/Desktop/list -iname "*.jpg" | wc -l
+3

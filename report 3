@@ -1,0 +1,26 @@
+MacBook-Air-cua-Macbook:~ Jim$ ps -e
+  PID TTY           TIME CMD
+35131 ??         0:00.05 /System/Library/Frameworks/AddressBook.framework/Execu
+35132 ??         0:00.12 /System/Library/Frameworks/Accounts.framework/Versions
+35133 ??         0:00.12 /System/Library/Frameworks/CoreServices.framework/Fram
+35134 ??         0:00.05 /System/Library/Frameworks/CoreServices.framework/Fram
+35135 ??         0:00.03 /System/Library/PrivateFrameworks/PerformanceAnalysis.
+35136 ??         0:00.28 /System/Library/Frameworks/CoreTelephony.framework/Sup
+35137 ??         0:00.01 /System/Library/Frameworks/CoreTelephony.framework/Sup
+35138 ??         0:00.42 /System/Library/PrivateFrameworks/TelephonyUtilities.f
+35139 ??         0:00.04 /usr/libexec/nehelper
+35140 ??         0:00.26 /System/Library/PrivateFrameworks/SyncedDefaults.frame
+35141 ??         0:00.03 /System/Library/Frameworks/Security.framework/Versions
+35142 ??         0:00.03 /System/Library/Frameworks/Security.framework/Versions
+35119 ttys000    0:00.03 login -pf Jim
+35122 ttys000    0:00.02 -bash
+35143 ttys000    0:00.01 ps -e
+MacBook-Air-cua-Macbook:~ Jim$ open -a Safari
+MacBook-Air-cua-Macbook:~ Jim$ ps -e | grep "Safari"
+35868 ??         0:01.66 /Applications/Safari.app/Contents/MacOS/Safari
+35874 ??         0:00.61 /usr/libexec/SafariCloudHistoryPushAgent
+35923 ttys000    0:00.00 grep Safari
+MacBook-Air-cua-Macbook:~ Jim$ kill -STOP 35868
+MacBook-Air-cua-Macbook:~ Jim$ kill -CONT 35868
+MacBook-Air-cua-Macbook:~ Jim$ kill -KILL 35868
+

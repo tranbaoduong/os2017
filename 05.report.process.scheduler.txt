@@ -1,0 +1,2 @@
+cat /proc/sched_debug | grep 'systemd '
+cat /proc/1/sched | grep 'nr_switches'

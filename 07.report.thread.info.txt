@@ -1,0 +1,17 @@
+ps -e | grep Safari
+54022 ??         0:01.38 /Applications/Safari.app/Contents/MacOS/Safari
+54027 ??         0:00.04 /usr/libexec/SafariCloudHistoryPushAgent
+54030 ttys000    0:00.00 grep Safari
+ps M 54022
+USER   PID   TT   %CPU STAT PRI     STIME     UTIME COMMAND
+Jim  54022   ??    0.0 S    46T   0:00.22   0:00.72 /Applications/Safari.app/Co
+     54022         0.0 S    31T   0:00.00   0:00.00 
+     54022         0.0 S    37T   0:00.00   0:00.00 
+     54022         0.0 S    37T   0:00.00   0:00.00 
+     54022         0.0 S    55R   0:00.00   0:00.00 
+     54022         0.0 S    46T   0:00.03   0:00.02 
+     54022         0.0 S    31T   0:00.01   0:00.04 
+     54022         0.0 S    46T   0:00.00   0:00.01 
+     54022         0.0 S    31T   0:00.00   0:00.00 
+ps M 54022| wc -l
+8

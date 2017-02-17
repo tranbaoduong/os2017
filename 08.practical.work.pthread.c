@@ -32,7 +32,17 @@ item *consume() {
 void firstlast() {
     printf("First = %d  Last = %d\n",first,last);
 }
-void producethread(void *param){
+
+void consumethread(void *param) {
+    printf("consume an item:\n");
+    consume();
+    firstlast();
+    
+    printf("consume another item:\n");
+    consume();
+    firstlast();
+}
+int main(){
     item item1;
     item1.type = '0';
     item1.amount = 5;
@@ -59,17 +69,7 @@ void producethread(void *param){
     printf("item 3:\n type: %c\n amount: %d\n unit: %c\n",item3.type,item3.amount,item3.unit);
     produce(&item3);
     firstlast();
-}
-void consumethread(void *param) {
-    printf("consume an item:\n");
-    consume();
-    firstlast();
     
-    printf("consume another item:\n");
-    consume();
-    firstlast();
-}
-int main(){
     pthread_t tid1, tid2;
     pthread_create(
                    &tid1,
